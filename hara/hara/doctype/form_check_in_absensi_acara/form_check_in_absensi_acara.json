@@ -1,0 +1,345 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-18 10:50:25.003751",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ncwl",
+  "amended_from",
+  "agenda",
+  "waktu_mulai",
+  "nama",
+  "role",
+  "koperasi",
+  "organisasikomunitas",
+  "nomor_whatssapp",
+  "usia",
+  "jenis_kelamin",
+  "lokasi_acara",
+  "detail_lokasi_acara",
+  "foto_lokasi_acara",
+  "soal_pre_test_tab",
+  "pre_m1_q1",
+  "pre_m1_q2",
+  "pre_m1_q3",
+  "pre_m1_q4",
+  "pre_m1_q5",
+  "pre_m1_q6",
+  "pre_m1_q7",
+  "pre_m1_q8",
+  "pre_m1_q9",
+  "pre_m1_q10",
+  "p2_q1",
+  "p2_q2",
+  "p2_q3_jawaban",
+  "p2_q4",
+  "p2_q5",
+  "p2_q6",
+  "p2_q7",
+  "p2_q8",
+  "p2_q9",
+  "p2_q10",
+  "pre_m3_q1",
+  "pre_m3_q2",
+  "pre_m3_q3",
+  "pre_m3_q4",
+  "pre_m3_q5",
+  "pre_m3_q6",
+  "pre_m3_q7",
+  "pre_m3_q8",
+  "pre_m3_q9",
+  "pre_m3_q10"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ncwl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Form Check In Absensi Acara",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Select",
+   "label": "Agenda"
+  },
+  {
+   "fieldname": "waktu_mulai",
+   "fieldtype": "Time",
+   "label": "Waktu Mulai Acara"
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Data",
+   "label": "Nama"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Select",
+   "label": "Role",
+   "options": "Petani\nChangemaker"
+  },
+  {
+   "fieldname": "koperasi",
+   "fieldtype": "Select",
+   "label": "Koperasi",
+   "options": "Koperasi Jasa Mutiara Kongbeng\nKoperasi Marga Indah\nKoperasi Makarti\nTidak dari koperasi"
+  },
+  {
+   "fieldname": "organisasikomunitas",
+   "fieldtype": "Data",
+   "label": "Organisasi/komunitas"
+  },
+  {
+   "fieldname": "nomor_whatssapp",
+   "fieldtype": "Phone",
+   "label": "Nomor Whatssapp"
+  },
+  {
+   "fieldname": "usia",
+   "fieldtype": "Data",
+   "label": "Usia"
+  },
+  {
+   "fieldname": "jenis_kelamin",
+   "fieldtype": "Select",
+   "label": "Jenis Kelamin",
+   "options": "Laki - Laki\nPerempuan"
+  },
+  {
+   "fieldname": "lokasi_acara",
+   "fieldtype": "Select",
+   "label": "Lokasi Acara",
+   "options": "Aceh\nSumatera Utara\nSumatera Barat\nRiau\nJambi\nSumatera Selatan\nBengkulu\nLampung\nKepulauan Bangka Belitung\nKepulauan Riau\nDKI Jakarta\nJawa Barat\nJawa Tengah\nDI Yogyakarta\nJawa Timur\nBanten\nBali\nNusa Tenggara Barat\nNusa Tenggara Timur\nKalimantan Barat\nKalimantan Tengah\nKalimantan Selatan\nKalimantan Timur\nKalimantan Utara\nSulawesi Utara\nSulawesi Tengah\nSulawesi Selatan\nSulawesi Tenggara\nGorontalo\nSulawesi Barat\nMaluku\nMaluku Utara\nPapua\nPapua Barat\nPapua Tengah\nPapua Pegunungan\nPapua Selatan\nPapua Barat Daya"
+  },
+  {
+   "fieldname": "detail_lokasi_acara",
+   "fieldtype": "Data",
+   "label": "Detail Lokasi Acara"
+  },
+  {
+   "fieldname": "foto_lokasi_acara",
+   "fieldtype": "Attach Image",
+   "label": "Foto Lokasi Acara"
+  },
+  {
+   "fieldname": "soal_pre_test_tab",
+   "fieldtype": "Tab Break",
+   "label": "Soal Pre Test"
+  },
+  {
+   "fieldname": "pre_m1_q1",
+   "fieldtype": "Select",
+   "label": "pre_m1_q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q2",
+   "fieldtype": "Select",
+   "label": "pre_m1_q2",
+   "options": "Pelatihan\nInternet\nDiskusi Petani"
+  },
+  {
+   "fieldname": "pre_m1_q3",
+   "fieldtype": "Select",
+   "label": "pre_m1_q3",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q4",
+   "fieldtype": "Select",
+   "label": "pre_m1_q4",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q5",
+   "fieldtype": "Select",
+   "label": "pre_m1_q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q6",
+   "fieldtype": "Select",
+   "label": "pre_m1_q6",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q7",
+   "fieldtype": "Select",
+   "label": "pre_m1_q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q8",
+   "fieldtype": "Select",
+   "label": "pre_m1_q8",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q9",
+   "fieldtype": "Select",
+   "label": "pre_m1_q9",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m1_q10",
+   "fieldtype": "Select",
+   "label": "pre_m1_q10",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q1",
+   "fieldtype": "Select",
+   "label": "p2_q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q2",
+   "fieldtype": "Select",
+   "label": "p2_q2",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q3_jawaban",
+   "fieldtype": "Small Text",
+   "label": "p2_q3_jawaban"
+  },
+  {
+   "fieldname": "p2_q4",
+   "fieldtype": "Select",
+   "label": "p2_q4",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q5",
+   "fieldtype": "Select",
+   "label": "p2_q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q6",
+   "fieldtype": "Select",
+   "label": "p2_q6",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q7",
+   "fieldtype": "Select",
+   "label": "p2_q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q8",
+   "fieldtype": "Select",
+   "label": "p2_q8",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q9",
+   "fieldtype": "Select",
+   "label": "p2_q9",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "p2_q10",
+   "fieldtype": "Select",
+   "label": "p2_q10",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q1",
+   "fieldtype": "Select",
+   "label": "pre_m3_q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q2",
+   "fieldtype": "Select",
+   "label": "pre_m3_q2",
+   "options": "Menggunakan alat\nMelalui uji laboratorium\nMenebak dari tekstur/tampilan fisik"
+  },
+  {
+   "fieldname": "pre_m3_q3",
+   "fieldtype": "Select",
+   "label": "pre_m3_q3",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q4",
+   "fieldtype": "Select",
+   "label": "pre_m3_q4",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q5",
+   "fieldtype": "Select",
+   "label": "pre_m3_q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q6",
+   "fieldtype": "Select",
+   "label": "pre_m3_q6",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q7",
+   "fieldtype": "Select",
+   "label": "pre_m3_q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q8",
+   "fieldtype": "Small Text",
+   "label": "pre_m3_q8"
+  },
+  {
+   "fieldname": "pre_m3_q9",
+   "fieldtype": "Select",
+   "label": "pre_m3_q9",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "pre_m3_q10",
+   "fieldtype": "Select",
+   "label": "pre_m3_q10",
+   "options": "Ya\nTidak"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-09-27 20:54:08.247264",
+ "modified_by": "Administrator",
+ "module": "Hara",
+ "name": "Form Check In Absensi Acara",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

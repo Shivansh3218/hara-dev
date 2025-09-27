@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-18 10:40:48.260395",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_ge5q",
+  "amended_from",
+  "nama",
+  "nomor_whatsapp",
+  "koperasi",
+  "organisasikomunitas",
+  "usia",
+  "jenis_kelamin",
+  "wilayah",
+  "alamat"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_ge5q",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Formulir Registrasi Change Maker",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Data",
+   "label": "Nama"
+  },
+  {
+   "fieldname": "nomor_whatsapp",
+   "fieldtype": "Phone",
+   "label": "Nomor Whatsapp"
+  },
+  {
+   "fieldname": "koperasi",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "koperasi",
+   "options": "Koperasi Jasa Mutiara Kongbeng\nKoperasi Marga Indah\nKoperasi Makarti\nTidak dari koperasi"
+  },
+  {
+   "depends_on": "eval:doc.selct_iwwk==\"Tidak dari koperasi\"",
+   "fieldname": "organisasikomunitas",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organisasi/Komunitas "
+  },
+  {
+   "fieldname": "usia",
+   "fieldtype": "Data",
+   "label": "Usia"
+  },
+  {
+   "fieldname": "jenis_kelamin",
+   "fieldtype": "Data",
+   "label": "Jenis Kelamin"
+  },
+  {
+   "fieldname": "wilayah",
+   "fieldtype": "Select",
+   "label": "Wilayah"
+  },
+  {
+   "fieldname": "alamat",
+   "fieldtype": "Data",
+   "label": "Alamat"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-09-27 20:56:09.554479",
+ "modified_by": "Administrator",
+ "module": "Hara",
+ "name": "Formulir Registrasi Change Maker",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,320 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-18 11:05:39.900221",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_o03r",
+  "amended_from",
+  "agenda",
+  "tanggal_agenda",
+  "nama",
+  "nomor_whatsapp",
+  "role",
+  "koperasi",
+  "organisasikomunitas",
+  "testimoni",
+  "soal_post_test_tab",
+  "q1",
+  "q2",
+  "q3",
+  "q3_alasan",
+  "q4",
+  "q5",
+  "q6",
+  "q7",
+  "q8",
+  "q9",
+  "m2_q1",
+  "m2_q2",
+  "m2_q3",
+  "m2_q4",
+  "m2_q5",
+  "m2_q5_alasan",
+  "m2_q6",
+  "m2_q6_alasan",
+  "m2_q7",
+  "m2_q8",
+  "m2_q9",
+  "m3_q1",
+  "m3_q2",
+  "m3_q3",
+  "m3_q4",
+  "m3_q5",
+  "m3_q6",
+  "m3_q7",
+  "m3_q8",
+  "m3_q9",
+  "m3_q10"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_o03r",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Form Check Out Absensi Acara",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "agenda",
+   "fieldtype": "Select",
+   "label": "Agenda",
+   "options": "Pemahaman dasar pertanian regeneratif\nPemahaman teknis dan praktik dasar pertanian regeneratif\nPraktik lapangan pertanian regeneratif"
+  },
+  {
+   "fieldname": "tanggal_agenda",
+   "fieldtype": "Date",
+   "label": "Tanggal Agenda"
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Data",
+   "label": "Nama"
+  },
+  {
+   "fieldname": "nomor_whatsapp",
+   "fieldtype": "Phone",
+   "label": "Nomor Whatsapp"
+  },
+  {
+   "fieldname": "role",
+   "fieldtype": "Select",
+   "label": "Role",
+   "options": "Petani\nChangemaker"
+  },
+  {
+   "fieldname": "koperasi",
+   "fieldtype": "Select",
+   "label": "Koperasi"
+  },
+  {
+   "fieldname": "organisasikomunitas",
+   "fieldtype": "Data",
+   "label": "Organisasi/komunitas"
+  },
+  {
+   "fieldname": "testimoni",
+   "fieldtype": "Data",
+   "label": "Testimoni"
+  },
+  {
+   "fieldname": "soal_post_test_tab",
+   "fieldtype": "Tab Break",
+   "label": "Soal Post Test"
+  },
+  {
+   "description": "<p style=\"font-weight:600;\">\n  1. Apakah informasi mengenai konsep pertanian regeneratif bertambah setelah mengikuti kelas mengenai Modul 1. Pemahaman dasar pertanian regeneratif?\n</p>\n<select name=\"jawaban_1\">\n  <option value=\"Ya\">Ya</option>\n  <option value=\"Tidak\">Tidak</option>\n</select>\n",
+   "fieldname": "q1",
+   "fieldtype": "Select",
+   "label": "q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q2",
+   "fieldtype": "Select",
+   "label": "q2",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q3",
+   "fieldtype": "Small Text",
+   "label": "q3",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q3_alasan",
+   "fieldtype": "Select",
+   "label": "q3"
+  },
+  {
+   "fieldname": "q4",
+   "fieldtype": "Select",
+   "label": "q4",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q5",
+   "fieldtype": "Select",
+   "label": "q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q6",
+   "fieldtype": "Select",
+   "label": "q6",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q7",
+   "fieldtype": "Select",
+   "label": "q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q8",
+   "fieldtype": "Select",
+   "label": "q8",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "q9",
+   "fieldtype": "Small Text",
+   "label": "q9"
+  },
+  {
+   "fieldname": "m2_q1",
+   "fieldtype": "Select",
+   "label": "m2_q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q2",
+   "fieldtype": "Select",
+   "label": "m2_q2",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q3",
+   "fieldtype": "Select",
+   "label": "m2_q3",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q4",
+   "fieldtype": "Select",
+   "label": "m2_q4",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q5",
+   "fieldtype": "Select",
+   "label": "m2_q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q5_alasan",
+   "fieldtype": "Small Text",
+   "label": "m2_q5_alasan"
+  },
+  {
+   "fieldname": "m2_q6",
+   "fieldtype": "Select",
+   "label": "m2_q6",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q6_alasan",
+   "fieldtype": "Small Text",
+   "label": "m2_q6_alasan"
+  },
+  {
+   "fieldname": "m2_q7",
+   "fieldtype": "Select",
+   "label": "m2_q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q8",
+   "fieldtype": "Select",
+   "label": "m2_q8",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m2_q9",
+   "fieldtype": "Small Text",
+   "label": "m2_q9"
+  },
+  {
+   "fieldname": "m3_q1",
+   "fieldtype": "Select",
+   "label": "m3_q1",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m3_q2",
+   "fieldtype": "Select",
+   "label": "m3_q2",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m3_q3",
+   "fieldtype": "Select",
+   "label": "m3_q3",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m3_q4",
+   "fieldtype": "Small Text",
+   "label": "m3_q4"
+  },
+  {
+   "fieldname": "m3_q5",
+   "fieldtype": "Select",
+   "label": "m3_q5",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m3_q6",
+   "fieldtype": "Small Text",
+   "label": "m3_q6"
+  },
+  {
+   "fieldname": "m3_q7",
+   "fieldtype": "Select",
+   "label": "m3_q7",
+   "options": "Ya\nTidak"
+  },
+  {
+   "fieldname": "m3_q8",
+   "fieldtype": "Small Text",
+   "label": "m3_q8"
+  },
+  {
+   "fieldname": "m3_q9",
+   "fieldtype": "Small Text",
+   "label": "m3_q9"
+  },
+  {
+   "fieldname": "m3_q10",
+   "fieldtype": "Select",
+   "label": "m3_q10",
+   "options": "Ya\nTidak"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-09-27 20:54:36.042746",
+ "modified_by": "Administrator",
+ "module": "Hara",
+ "name": "Form Check Out Absensi Acara",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

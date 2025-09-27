@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-19 12:13:11.456908",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_piwm",
+  "amended_from",
+  "nama",
+  "nomor_whatsapp",
+  "koperasi",
+  "organisasikomunitas",
+  "usia",
+  "jenis_kelamin",
+  "wilayah",
+  "detail_alamat"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_piwm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Form Registrasi Petani",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "nama",
+   "fieldtype": "Data",
+   "label": "Nama"
+  },
+  {
+   "fieldname": "nomor_whatsapp",
+   "fieldtype": "Phone",
+   "label": "Nomor Whatsapp"
+  },
+  {
+   "fieldname": "koperasi",
+   "fieldtype": "Select",
+   "label": "Koperasi",
+   "options": "Koperasi Jasa Mutiara Kongbeng\nKoperasi Marga Indah\nKoperasi Makarti\nTidak dari koperasi"
+  },
+  {
+   "fieldname": "organisasikomunitas",
+   "fieldtype": "Data",
+   "label": "Organisasi/Komunitas"
+  },
+  {
+   "fieldname": "usia",
+   "fieldtype": "Data",
+   "label": "Usia"
+  },
+  {
+   "fieldname": "jenis_kelamin",
+   "fieldtype": "Select",
+   "label": "Jenis Kelamin",
+   "options": "Laki -laki\nPerempuan"
+  },
+  {
+   "fieldname": "wilayah",
+   "fieldtype": "Select",
+   "label": "Wilayah",
+   "options": "Aceh\nSumatera Utara\nSumatera Barat\nRiau\nJambi\nSumatera Selatan\nBengkulu\nLampung\nKepulauan Bangka Belitung\nKepulauan Riau\nDKI Jakarta\nJawa Barat\nJawa Tengah\nDI Yogyakarta\nJawa Timur\nBanten\nBali\nNusa Tenggara Barat\nNusa Tenggara Timur\nKalimantan Barat\nKalimantan Tengah\nKalimantan Selatan\nKalimantan Timur\nKalimantan Utara\nSulawesi Utara\nSulawesi Tengah\nSulawesi Selatan\nSulawesi Tenggara\nGorontalo\nSulawesi Barat\nMaluku\nMaluku Utara\nPapua\nPapua Barat\nPapua Tengah\nPapua Pegunungan\nPapua Selatan\nPapua Barat Daya"
+  },
+  {
+   "fieldname": "detail_alamat",
+   "fieldtype": "Data",
+   "label": "Detail alamat"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-09-27 20:54:57.900213",
+ "modified_by": "Administrator",
+ "module": "Hara",
+ "name": "Form Registrasi Petani",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
